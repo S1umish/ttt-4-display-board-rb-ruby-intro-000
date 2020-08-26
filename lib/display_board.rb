@@ -20,12 +20,12 @@ board = [" "," "," "," "," "," "," "," "," "]
 end
 display_board(board)
 #board[5] = X
-board = [" ", " ", " ", " ", "X" , " ", " ", " ", " "]
+board = [" ", " ", " ", " ",  "X" , " ", " ", " ", " "]
 display_board(board)
 
 
-board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
-display_board(board)
+#board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+#display_board(board)
 
 
 #board[0] = "O"
