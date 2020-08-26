@@ -23,10 +23,16 @@ display_board(board)
 board[5] = X
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
-end
 
 board[0] = O
 board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+display_board(board)
+
+
+board[0] = "O"
+board[4] = "X"
+board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
+display_board(board)
 
 #board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
 #display_board(board)
