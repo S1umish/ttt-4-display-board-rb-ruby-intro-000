@@ -19,9 +19,9 @@ board = [" "," "," "," "," "," "," "," "," "]
  puts "#{board[6]}  |#{board[7]} |#{board[8]}"
 end
 display_board(board)
-#board[5] = X
-#board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-#display_board(board)
+board[5] = X
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+display_board(board)
 
 #board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
 #display_board(board)
