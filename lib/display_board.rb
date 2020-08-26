@@ -20,11 +20,7 @@ display_board(board)
 #end
 #display_board(board)
 
-puts "#{}   | #{}  | #{}  "
-puts "-----------"
-puts " #{}  | #{}  | #{}  "
-puts "-----------"
-puts " #{}  |#{}   | #{}  "
+
 board[5] = X
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
