@@ -20,12 +20,13 @@ def display_board(board)
 end
 display_board(board)
 
-board[5]= X
+board[5] = X
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
 end
 
-#board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-#board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+board[0] = O
+board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+
 #board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
 #display_board(board)
